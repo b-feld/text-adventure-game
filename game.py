@@ -91,8 +91,9 @@ def location_3(has_key, has_sword=False):
   print("look around")
   print("")
   action = input("ENTER: ")
-  print("You're in luck! A sword was left behind from a previous traveler.")
-  print("")
+  if action == ("look around"): 
+    print("You're in luck! A sword was left behind from a previous traveler.")
+    print("")
   print("ACTION MENU: ")
   print("pick it up")
   print("prepare to die")
