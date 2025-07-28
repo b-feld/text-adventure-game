@@ -138,7 +138,7 @@ def location_4(has_key, has_sword):
       guess = int(input(f"Guess {guess_count}: "))
 
       if guess == secret_number:
-          print(f"Congratulations!")
+          print(f"Congratulations! You guessed correctly")
           if has_key:
               you_win()
               return
